@@ -38,19 +38,7 @@ a {
     cursor: pointer;
   }
 
-  .nav-list {
+  .nav-list li {
     display: none;
-  }
-
-  .topnav.responsive {position: relative;}
-  .topnav.responsive .mobile {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
   }
 }
