@@ -10,6 +10,21 @@ nav {
   align-items: center;
   background-color: brown;
   padding: 1rem 30px;
+  width: 100%;
+}
+
+.nav-dropdown {
+  background-color: rgb(212, 96, 49);
+  width: 100%;
+  display: none;
+  position: relative;
+  text-align: center;
+}
+
+.nav-dropdown li {
+  display: block;
+  margin: 0 0 10px 0;
+  padding: 8px;
 }
 
 ul li {
@@ -20,6 +35,9 @@ a {
   list-style-type: none;
   text-decoration: none;
   color: cornsilk;
+}
+a:hover {
+  color: rgb(148, 226, 60);
 }
 .mobile {
   display: none;
@@ -32,13 +50,13 @@ a {
 }
 
 /* media queries */
-@media only screen and (max-width: 625px) {
+@media only screen and (max-width: 650px) {
   .mobile {
     display: block;
     cursor: pointer;
   }
-
-  .nav-list li {
+  
+  .nav-list {
     display: none;
   }
 }
