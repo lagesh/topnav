@@ -11,6 +11,7 @@ nav {
   background-color: brown;
   padding: 1rem 30px;
 }
+
 ul li {
   display: inline-block;
   margin-left: 2.5rem;
@@ -30,13 +31,26 @@ a {
   margin: 5px;
 }
 
-/* media queries ------- */
+/* media queries */
 @media only screen and (max-width: 625px) {
   .mobile {
     display: block;
+    cursor: pointer;
   }
-  .nav-logo,
+
   .nav-list {
     display: none;
+  }
+
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .mobile {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
   }
 }
