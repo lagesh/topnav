@@ -16,7 +16,7 @@ nav {
 .nav-dropdown {
   background-color: rgb(212, 96, 49);
   width: 100%;
-  display: none;
+  display: block;
   position: relative;
   text-align: center;
 }
@@ -55,7 +55,7 @@ a:hover {
     display: block;
     cursor: pointer;
   }
-  
+
   .nav-list {
     display: none;
   }

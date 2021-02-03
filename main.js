@@ -1,4 +1,4 @@
 function myFunction() {
-  let burger = document.getElementsByClassName(mobile);
-
+  let burger = document.querySelector(".mobile");
+    burger.classList.toggle("nav-dropdown");
 }
