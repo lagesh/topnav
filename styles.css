@@ -16,8 +16,8 @@ nav {
 .nav-dropdown {
   background-color: rgb(212, 96, 49);
   width: 100%;
-  display: block;
-  position: relative;
+  display: none;
+  /* position: relative; */
   text-align: center;
 }
 

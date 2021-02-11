@@ -1,4 +1,8 @@
 function myFunction() {
   let burger = document.querySelector(".mobile");
-    burger.classList.toggle("nav-dropdown");
+  let dropDown = document.querySelector('.nav-dropdown');
+  burger.addEventListener('click', function () {
+    dropDown.style.display = 'block';
+  })
 }
+myFunction();
