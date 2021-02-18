@@ -17,7 +17,7 @@ nav {
   background-color: rgb(212, 96, 49);
   width: 100%;
   display: none;
-  /* position: relative; */
+  position: relative;
   text-align: center;
 }
 
