@@ -1,3 +1,4 @@
+/*
 let burgerMenu = document.querySelector('.mobile');
 let navDropdown = document.querySelector('.nav-dropdown');
 
@@ -8,9 +9,10 @@ burgerMenu.addEventListener('click', () => {
     navDropdown.style.display = 'none';
   }
 })
-
-/*
-$('#burgerMenu').click(() => {
-  $('#navDropDown').toggle()
-});
 */
+
+$(document).ready(() => {
+  $('.mobile').click(() => {
+    $('.nav-dropdown').toggle()
+  });
+})
